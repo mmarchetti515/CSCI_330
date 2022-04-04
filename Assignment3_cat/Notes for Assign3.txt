@@ -1,0 +1,3 @@
+Notes for Assign3
+    - ideal block size to break up files into is 4k
+    - 
