@@ -1,0 +1,34 @@
+# Lines beginning with # are comments and should be ignored, as should blank lines be
+
+# Employee records have 4 fields after E:   E:empid:name:title:salary
+E:110:Paul Atreides:Kwisatz Haderach:20000000
+E:120:Duncan Idaho:Swordmaster:99500
+E:130:Gurney Halleck:Warmaster:105000
+E:140:Vladimir Harkonnen:Baron:990000
+E:150:Shaddam Corrino IV:Padishah Emperor:1000000
+E:160:Irulan Corrino:Princess:980000
+E:170:Chani Kynes:Fremen Warrior:95000
+E:184:Stilgar Ben Fifrawi:Fremen Naib:104500
+E:192:Lady Jessica:Reverend Mother:500000
+E:203:Thufir Hawat:Master of Assassins:102000
+E:205:Leto Atreides:Duke:1500333
+# Project records have 3 fields after P:    P:projid:name:manager
+P:1:Spice Mining:140
+P:2:Bene Gesserit Schemes:192
+P:3:Muad'Dib's Jihad:110
+P:4:Security:130
+
+# WorkingOn records have 2 fields after W:  W:workid:empid:projid
+W:12:140:1
+W:29:110:1
+W:31:205:1
+W:34:192:2
+W:38:160:2
+W:54:110:3
+W:65:170:3
+W:68:184:3
+W:72:120:4
+W:77:130:4
+W:82:203:4
+W:90:150:1
+
